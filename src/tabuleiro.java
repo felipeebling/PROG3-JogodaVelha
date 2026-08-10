@@ -6,6 +6,14 @@ public class tabuleiro {
 
 private char[][] tab = new char [3][3];
 
+public char[][] getTab() {
+	return tab;
+}
+
+public void setTab(char[][] tab) {
+	this.tab = tab;
+}
+
 public tabuleiro() {
 	for	(int i = 0 ; i < 3; i++) {
 		for(int k = 0 ; k < 3; k++) {
